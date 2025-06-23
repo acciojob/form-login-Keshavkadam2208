@@ -5,5 +5,6 @@ function getFormvalue() {
 	const lastname = form.elements["lname"].value.trim();
 	const fullname = '${firstname} ${lastname}'.trim();
 	alert(fullname);
+	return false;
 
 }
